@@ -174,6 +174,41 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1629175422d2f1728e": {
+      "type": "image-with-text",
+      "blocks": {
+        "1629175422d2f1728e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1629175422d2f1728e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1629175422d2f1728e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1629175422d2f1728e-0",
+        "1629175422d2f1728e-1",
+        "1629175422d2f1728e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/stylish-summer-necklace.jpg",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -182,6 +217,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "1629175422d2f1728e"
   ]
 }
