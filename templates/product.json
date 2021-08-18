@@ -53,6 +53,15 @@
           "type": "share",
           "settings": {
           }
+        },
+        "1231a799-95f2-4c8c-b385-b3cd42a4b4ad": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Composition",
+            "content": "<p>{{ product.title }}<\/p>",
+            "page": "contact",
+            "icon": "leather"
+          }
         }
       },
       "block_order": [
@@ -64,7 +73,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "1231a799-95f2-4c8c-b385-b3cd42a4b4ad"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -81,10 +91,37 @@
         "show_image_outline": true,
         "show_vendor": false
       }
+    },
+    "16292692730a251830": {
+      "type": "image-with-text",
+      "blocks": {
+        "16292692730a251830-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Amazing shoes from {{ product.vendor }}"
+          }
+        },
+        "16292692730a251830-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.title }} is simply good<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16292692730a251830-0",
+        "16292692730a251830-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "16292692730a251830"
   ]
 }
