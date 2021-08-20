@@ -9,13 +9,19 @@
             "heading": "Talk about your brand"
           }
         },
+        "e34ff197-ec2d-4809-9969-ed4e04bf9885": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
-            "button_label_2": "",
+            "button_label_2": "лд",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -23,6 +29,7 @@
       },
       "block_order": [
         "heading",
+        "e34ff197-ec2d-4809-9969-ed4e04bf9885",
         "button"
       ],
       "settings": {
@@ -37,36 +44,26 @@
     "rich_text": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
+        "1ec2d103-0231-40fa-815b-a360885aee41": {
           "type": "heading",
           "settings": {
             "heading": "Talk about your brand",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "c3fba6ca-40b9-4761-9e45-02822c11badf": {
           "type": "text",
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
-        },
-        "button": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "1ec2d103-0231-40fa-815b-a360885aee41",
+        "c3fba6ca-40b9-4761-9e45-02822c11badf"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "full_width": true
       }
     },
@@ -105,19 +102,20 @@
             "image_padding": false
           }
         },
-        "collection": {
-          "type": "collection",
+        "1f152876-3504-4251-8887-a8d7133ae4ae": {
+          "type": "product",
           "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
+            "product": "",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
           }
         }
       },
       "block_order": [
         "video",
         "product",
-        "collection"
+        "1f152876-3504-4251-8887-a8d7133ae4ae"
       ],
       "settings": {
         "heading": "Multimedia collage",
@@ -157,12 +155,39 @@
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
+        },
+        "ed87cc27-c064-4cba-81c0-39d30339ccec": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "4ecd1ba4-e8a5-4968-ad58-8569f6c8bf8c": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "0aebaa72-87a8-46c0-9658-839fa5d602cf": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "ed87cc27-c064-4cba-81c0-39d30339ccec",
+        "4ecd1ba4-e8a5-4968-ad58-8569f6c8bf8c",
+        "0aebaa72-87a8-46c0-9658-839fa5d602cf"
       ],
       "settings": {
         "title": "Multicolumn",

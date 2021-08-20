@@ -30,7 +30,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "dropdown"
           }
         },
         "quantity_selector": {
@@ -57,8 +57,8 @@
         "1231a799-95f2-4c8c-b385-b3cd42a4b4ad": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Composition",
-            "content": "<p>{{ product.title }}<\/p>",
+            "heading": "Size chart",
+            "content": "<p>{{ product.metafields.my_fields.size_chart | metafield_tag }}<\/p>",
             "page": "contact",
             "icon": "leather"
           }
@@ -79,6 +79,48 @@
       "settings": {
         "enable_sticky_info": true,
         "enable_video_looping": false
+      }
+    },
+    "1629470535ba3c6808": {
+      "type": "collage",
+      "blocks": {
+        "1629470535ba3c6808-0": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "1629470535ba3c6808-1": {
+          "type": "product",
+          "settings": {
+            "product": "{{ product.metafields.my_fields.referance.value }}",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        },
+        "1629470535ba3c6808-2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1629470535ba3c6808-0",
+        "1629470535ba3c6808-1",
+        "1629470535ba3c6808-2"
+      ],
+      "settings": {
+        "heading": "Looks good with",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
       }
     },
     "16292692730a251830": {
@@ -121,6 +163,7 @@
   },
   "order": [
     "main",
+    "1629470535ba3c6808",
     "16292692730a251830",
     "product-recommendations"
   ]
