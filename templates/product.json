@@ -46,7 +46,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Product details",
-            "content": "",
+            "content": "<p>{{ product.metafields.my_fields.product_details | metafield_tag }}<\/p>",
             "page": "",
             "icon": "price_tag"
           }
