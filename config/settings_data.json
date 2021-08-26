@@ -1,5 +1,6 @@
 {
   "current": {
+    "colors_outline_button_labels": "#e22120",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
